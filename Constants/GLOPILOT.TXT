@@ -1,0 +1,65 @@
+User Info(Also include pronuns for user)
+- Home Address
+- Work Address
+- Logged Devices Tracking
+- Details editing(email, phone number, ID card, and SSN)
+- Data Capture for Drivers
+- All Users Preferences(Check With UI to get them)
+- User Payment
+    -> Wallet Balance
+    -> CC Details
+    -> Payment Methods Intergations(Should include preference for auto fill)
+    -> Set User Payment Pin code and require user to provide pin if set.
+    -> Payment History 
+    -> Preference to set payment frequency
+- Wallet
+    -> Voucher Code and Promo code redemption(Should also include admin privilege to set promo and Voucher code numbers)
+    ->
+- User History With Types(Ride, Food, Package, Travel)
+- User Notifications
+- Legal Documentation (Ters of use, Privacy Policy, Liencesing)
+-- All Locations should include Cordinates
+
+
+Scooter -
+    - Search Scooter based on location(Cordinates)
+    - scooter booking with id(qr code) ps: i will handle grcodes scanning from frontend
+    - scooter data type should include status to know available and unavailabe scooter
+    - scotter booking cost is based on time(per min)
+    - end time and begin time should be included in data Types
+    - implement funds detuction from user based on time used by rental
+    - add scooter endpoint should include location(cordinates, unique scooter id)
+
+Car rental  
+    - Kindly populate car-rent endpoint so i can access them and know whats needed
+    - /vehicle_add_car should collect following data(Year, Make or Brand, Model, Color, Number of doors, number of seat belts, Vehicle type, wheelchair ramp(booleon))
+    - add cars should have two endpoint or should be specified in add car(for rent or for ride)
+    - /vehicle_add_car should include 
+            car picture
+            numbers of seats
+            numbers of doors
+            no of bags car car can contain
+            transmission type(manual or automatic)
+            price per day
+            car_location(cordinates)
+    - Car rental search should be based on location(cordinates)
+    - All qrcodes pictures would be scanned and sent to backend
+
+Flight
+    -Flight is search request white the following search string 
+        - from where Places with cordinates(Im sending both cordinates and place address to backend)
+        - To where, (similar data entry as 'from where')
+        - Leaving on and returning on (data string from and to) any data format for date strings is fine
+        About search string is used to request avaialable  Flights based on search strings
+         
+ Book Hotels
+
+    - Search Strings includes
+        - Going to strings with cordinates(Im sending both cordinates and place address to backend)
+        - Check in and out (date to and fro)
+    
+
+
+PS: Check for inconsistencies with authorization and userID 
+Note: 'I am sensing possible vunerability/loopholes in '/login' endpoint'
+kindly confirm

@@ -1,0 +1,259 @@
+ew>
+
+<View style={styles.container}>
+<View style={styles.trectangle} />
+
+
+<View style={styles.row}>
+
+
+    
+   <View style={styles.column}>
+   <TouchableOpacity style={styles.rectangle} onPress={navigateToMapLocator}>
+    <Image
+  source={require('../assets/icons/ride-icon.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+ </TouchableOpacity>
+    <Text style={styles.text}>Rides</Text>
+    </View>
+
+    <View style={styles.column}>
+    <View style={styles.rectangle} >
+    <Image
+  source={require('../assets/icons/package-icon.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </View>
+
+
+
+
+        
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={TwoWheel}>
+    <Image
+  source={require('../assets/icons/2-wheels.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+    <Text style={styles.text}>Carpool - Shared Ride</Text>
+    </View>
+
+    <Text style={styles.text}>Package</Text>
+    </View>
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={TwoWheel}>
+    <Image
+  source={require('../assets/icons/2-wheels.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+    <Text style={styles.text}>2-Wheels</Text>
+    </View>
+
+
+   
+
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={TwoWheel}>
+    <Image
+  source={require('../assets/icons/2-wheels.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+    <Text style={styles.text}>Scooter</Text>
+    </View>
+
+
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={Trycycle}>
+    <Image
+  source={require('../assets/icons/tricycle.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+  
+        
+    <Text style={styles.text}>Tri-Cycle</Text>
+    </View>
+      </View>
+
+
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={TwoWheel}>
+    <Image
+  source={require('../assets/icons/2-wheels.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+    <Text style={styles.text}>Reserve Ride</Text>
+    </View>
+
+
+
+      <View style={styles.row}>
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={Food}>
+    <Image
+  source={require('../assets/icons/food-icon.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+
+
+     
+    <Text style={styles.text}>Food</Text>
+    </View>
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={Grocery}>
+    <Image
+  source={require('../assets/icons/groceries-icon.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+    <Text style={styles.text}>Grocery</Text>
+    </View>
+
+
+    
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={TwoWheel}>
+    <Image
+  source={require('../assets/icons/2-wheels.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+    <Text style={styles.text}>Haulage</Text>
+    </View>
+
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={Hourly}>
+    <Image
+  source={require('../assets/icons/hourly-icon.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+        </TouchableOpacity>
+    <Text style={styles.text}>Hourly</Text>
+    </View>
+
+
+    
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={TwoWheel}>
+    <Image
+  source={require('../assets/icons/2-wheels.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+    <Text style={styles.text}>Charter</Text>
+    </View>
+
+
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={TwoWheel}>
+    <Image
+  source={require('../assets/icons/2-wheels.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+    <Text style={styles.text}>Rent Cars</Text>
+    </View>
+
+
+
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={TwoWheel}>
+    <Image
+  source={require('../assets/icons/2-wheels.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+    <Text style={styles.text}>Boat Tours</Text>
+    </View>
+
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={TwoWheel}>
+    <Image
+  source={require('../assets/icons/2-wheels.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+        </TouchableOpacity>
+    <Text style={styles.text}>Cross State Trip</Text>
+    </View>
+
+
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle} onPress={TwoWheel}>
+    <Image
+  source={require('../assets/icons/2-wheels.png')}
+  style={styles.tabIcon} resizeMode='contain'
+/>
+
+
+
+        </TouchableOpacity>
+    <Text style={styles.text}>Cross Country Trip</Text>
+    </View>
+
+
+
+    <View style={styles.column}>
+    <TouchableOpacity style={styles.rectangle}  onPress={showBottomSheet}>
+    <Image
+  source={require('../assets/icons/more-icon.png')}
+  style={{height: 4.5, }} resizeMode='contain'
+/>
+        </TouchableOpacity>
+    <Text style={styles.text}>More</Text>
+    </View>
+</View>

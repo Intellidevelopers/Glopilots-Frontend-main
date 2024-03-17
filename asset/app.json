@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Glopiloters",
+    "slug": "Glopiloters",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.noblestfx.Glopiloters"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9592243e-417a-4299-9e0e-c9176589701c"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9592243e-417a-4299-9e0e-c9176589701c"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}

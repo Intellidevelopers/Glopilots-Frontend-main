@@ -1,0 +1,36 @@
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+
+const Communications = () => {
+  return (
+    <View style={{ flex: 1 }}>
+      <View style={{ alignItems: 'flex-start', marginStart: 20, marginTop: 21 }}>
+        <Text style={{ fontFamily: 'Uber Move', fontWeight: 'bold', fontSize: 24, color: 'rgba(13, 19, 23, 255)' }}>
+          Contact Preferences
+        </Text>
+        <Text style={{ fontFamily: 'Uber Move', fontWeight: '400', fontSize: 18, color: 'rgba(84, 84, 84, 255)', marginTop: 6 }}>
+          Choose how you want drivers to reach you
+        </Text>
+      </View>
+    
+      <View style={styles.doneButtonContainer}>
+        <View style={{ alignItems: 'flex-start', paddingTop: 13, width: 'auto', marginRight: 20, paddingRight: 30, height: 56, borderRadius: 10, backgroundColor: 'rgba(68, 96, 239, 255)' }}>
+          <Text style={{ fontFamily: 'Uber Move', fontWeight: '400', fontSize: 20, textAlign: 'center', color: 'rgba(255, 255, 255, 255)' }}>
+            Done
+          </Text>
+        </View>
+      </View>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  // ... Other styles ...
+  doneButtonContainer: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    paddingBottom: 20,
+  },
+});
+
+export default Communications;
