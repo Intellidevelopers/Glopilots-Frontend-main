@@ -42,7 +42,7 @@ const Explore = ({navigation}) => {
       
       <View style={styles.row}>
         <RectangleCard title="Food" imageSource={require('../../../assets/home/food.png')} targetScreen="FoodDetails" />
-        <RectangleCard title="Grocery" imageSource={require('../../../assets/home/groceries.png')}/>
+        <RectangleCard title="Grocery" imageSource={require('../../../assets/home/groceries.png')} targetScreen="GroceryPage"/>
         <RectangleCard title="Alcohol" imageSource={require('../../../assets/home/alcohol.png')} targetScreen="Screen_21" />
       </View>
 
